@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39153DC418DF50750051C9B6 /* PageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 39153DC318DF50750051C9B6 /* PageVC.m */; };
+		39153DCB18E017710051C9B6 /* EtViewPager.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39153DCA18E017710051C9B6 /* EtViewPager.xib */; };
+		39153DCE18E017D00051C9B6 /* EtViewPagerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 39153DCD18E017D00051C9B6 /* EtViewPagerVC.m */; };
+		396BF57D189AA147005BFF74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 396BF57C189AA147005BFF74 /* Foundation.framework */; };
+		396BF57F189AA147005BFF74 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 396BF57E189AA147005BFF74 /* CoreGraphics.framework */; };
+		396BF581189AA147005BFF74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 396BF580189AA147005BFF74 /* UIKit.framework */; };
+		396BF587189AA147005BFF74 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 396BF585189AA147005BFF74 /* InfoPlist.strings */; };
+		396BF589189AA147005BFF74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 396BF588189AA147005BFF74 /* main.m */; };
+		396BF58D189AA147005BFF74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 396BF58C189AA147005BFF74 /* AppDelegate.m */; };
+		396BF590189AA147005BFF74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 396BF58E189AA147005BFF74 /* Main.storyboard */; };
+		396BF593189AA147005BFF74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 396BF592189AA147005BFF74 /* ViewController.m */; };
+		396BF595189AA147005BFF74 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 396BF594189AA147005BFF74 /* Images.xcassets */; };
+		396BF59C189AA147005BFF74 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 396BF59B189AA147005BFF74 /* XCTest.framework */; };
+		396BF59D189AA147005BFF74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 396BF57C189AA147005BFF74 /* Foundation.framework */; };
+		396BF59E189AA147005BFF74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 396BF580189AA147005BFF74 /* UIKit.framework */; };
+		396BF5A6189AA147005BFF74 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 396BF5A4189AA147005BFF74 /* InfoPlist.strings */; };
+		396BF5A8189AA147005BFF74 /* EtViewPagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 396BF5A7189AA147005BFF74 /* EtViewPagerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		396BF59F189AA147005BFF74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 396BF571189AA147005BFF74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 396BF578189AA147005BFF74;
+			remoteInfo = ImportResources;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39153DC218DF50750051C9B6 /* PageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageVC.h; sourceTree = "<group>"; };
+		39153DC318DF50750051C9B6 /* PageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageVC.m; sourceTree = "<group>"; };
+		39153DC918DFEB840051C9B6 /* EtViewPagerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EtViewPagerDelegate.h; sourceTree = "<group>"; };
+		39153DCA18E017710051C9B6 /* EtViewPager.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EtViewPager.xib; sourceTree = "<group>"; };
+		39153DCC18E017D00051C9B6 /* EtViewPagerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EtViewPagerVC.h; sourceTree = "<group>"; };
+		39153DCD18E017D00051C9B6 /* EtViewPagerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EtViewPagerVC.m; sourceTree = "<group>"; };
+		396BF579189AA147005BFF74 /* EtViewPager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EtViewPager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		396BF57C189AA147005BFF74 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		396BF57E189AA147005BFF74 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		396BF580189AA147005BFF74 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		396BF584189AA147005BFF74 /* EtViewPager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EtViewPager-Info.plist"; sourceTree = "<group>"; };
+		396BF586189AA147005BFF74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		396BF588189AA147005BFF74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		396BF58A189AA147005BFF74 /* EtViewPager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EtViewPager-Prefix.pch"; sourceTree = "<group>"; };
+		396BF58B189AA147005BFF74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		396BF58C189AA147005BFF74 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		396BF58F189AA147005BFF74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		396BF591189AA147005BFF74 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		396BF592189AA147005BFF74 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		396BF594189AA147005BFF74 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		396BF59A189AA147005BFF74 /* EtViewPagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EtViewPagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		396BF59B189AA147005BFF74 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		396BF5A3189AA147005BFF74 /* EtViewPagerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EtViewPagerTests-Info.plist"; sourceTree = "<group>"; };
+		396BF5A5189AA147005BFF74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		396BF5A7189AA147005BFF74 /* EtViewPagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EtViewPagerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		396BF576189AA147005BFF74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396BF57F189AA147005BFF74 /* CoreGraphics.framework in Frameworks */,
+				396BF581189AA147005BFF74 /* UIKit.framework in Frameworks */,
+				396BF57D189AA147005BFF74 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396BF597189AA147005BFF74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396BF59C189AA147005BFF74 /* XCTest.framework in Frameworks */,
+				396BF59E189AA147005BFF74 /* UIKit.framework in Frameworks */,
+				396BF59D189AA147005BFF74 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39153DC818DFEB580051C9B6 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				39153DC918DFEB840051C9B6 /* EtViewPagerDelegate.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		396BF570189AA147005BFF74 = {
+			isa = PBXGroup;
+			children = (
+				396BF582189AA147005BFF74 /* EtViewPager */,
+				396BF5A1189AA147005BFF74 /* EtViewPagerTests */,
+				396BF57B189AA147005BFF74 /* Frameworks */,
+				396BF57A189AA147005BFF74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		396BF57A189AA147005BFF74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				396BF579189AA147005BFF74 /* EtViewPager.app */,
+				396BF59A189AA147005BFF74 /* EtViewPagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		396BF57B189AA147005BFF74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				396BF57C189AA147005BFF74 /* Foundation.framework */,
+				396BF57E189AA147005BFF74 /* CoreGraphics.framework */,
+				396BF580189AA147005BFF74 /* UIKit.framework */,
+				396BF59B189AA147005BFF74 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		396BF582189AA147005BFF74 /* EtViewPager */ = {
+			isa = PBXGroup;
+			children = (
+				39153DC818DFEB580051C9B6 /* Protocols */,
+				396BF58B189AA147005BFF74 /* AppDelegate.h */,
+				396BF58C189AA147005BFF74 /* AppDelegate.m */,
+				396BF58E189AA147005BFF74 /* Main.storyboard */,
+				396BF591189AA147005BFF74 /* ViewController.h */,
+				396BF592189AA147005BFF74 /* ViewController.m */,
+				396BF594189AA147005BFF74 /* Images.xcassets */,
+				396BF583189AA147005BFF74 /* Supporting Files */,
+				39153DC218DF50750051C9B6 /* PageVC.h */,
+				39153DC318DF50750051C9B6 /* PageVC.m */,
+				39153DCA18E017710051C9B6 /* EtViewPager.xib */,
+				39153DCC18E017D00051C9B6 /* EtViewPagerVC.h */,
+				39153DCD18E017D00051C9B6 /* EtViewPagerVC.m */,
+			);
+			path = EtViewPager;
+			sourceTree = "<group>";
+		};
+		396BF583189AA147005BFF74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				396BF584189AA147005BFF74 /* EtViewPager-Info.plist */,
+				396BF585189AA147005BFF74 /* InfoPlist.strings */,
+				396BF588189AA147005BFF74 /* main.m */,
+				396BF58A189AA147005BFF74 /* EtViewPager-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		396BF5A1189AA147005BFF74 /* EtViewPagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				396BF5A7189AA147005BFF74 /* EtViewPagerTests.m */,
+				396BF5A2189AA147005BFF74 /* Supporting Files */,
+			);
+			path = EtViewPagerTests;
+			sourceTree = "<group>";
+		};
+		396BF5A2189AA147005BFF74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				396BF5A3189AA147005BFF74 /* EtViewPagerTests-Info.plist */,
+				396BF5A4189AA147005BFF74 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		396BF578189AA147005BFF74 /* EtViewPager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 396BF5AB189AA147005BFF74 /* Build configuration list for PBXNativeTarget "EtViewPager" */;
+			buildPhases = (
+				396BF575189AA147005BFF74 /* Sources */,
+				396BF576189AA147005BFF74 /* Frameworks */,
+				396BF577189AA147005BFF74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EtViewPager;
+			productName = ImportResources;
+			productReference = 396BF579189AA147005BFF74 /* EtViewPager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		396BF599189AA147005BFF74 /* EtViewPagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 396BF5AE189AA147005BFF74 /* Build configuration list for PBXNativeTarget "EtViewPagerTests" */;
+			buildPhases = (
+				396BF596189AA147005BFF74 /* Sources */,
+				396BF597189AA147005BFF74 /* Frameworks */,
+				396BF598189AA147005BFF74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				396BF5A0189AA147005BFF74 /* PBXTargetDependency */,
+			);
+			name = EtViewPagerTests;
+			productName = ImportResourcesTests;
+			productReference = 396BF59A189AA147005BFF74 /* EtViewPagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		396BF571189AA147005BFF74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = EmilTodorov;
+				TargetAttributes = {
+					396BF599189AA147005BFF74 = {
+						TestTargetID = 396BF578189AA147005BFF74;
+					};
+				};
+			};
+			buildConfigurationList = 396BF574189AA147005BFF74 /* Build configuration list for PBXProject "EtViewPager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 396BF570189AA147005BFF74;
+			productRefGroup = 396BF57A189AA147005BFF74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				396BF578189AA147005BFF74 /* EtViewPager */,
+				396BF599189AA147005BFF74 /* EtViewPagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		396BF577189AA147005BFF74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396BF595189AA147005BFF74 /* Images.xcassets in Resources */,
+				39153DCB18E017710051C9B6 /* EtViewPager.xib in Resources */,
+				396BF587189AA147005BFF74 /* InfoPlist.strings in Resources */,
+				396BF590189AA147005BFF74 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396BF598189AA147005BFF74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396BF5A6189AA147005BFF74 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		396BF575189AA147005BFF74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39153DCE18E017D00051C9B6 /* EtViewPagerVC.m in Sources */,
+				396BF593189AA147005BFF74 /* ViewController.m in Sources */,
+				39153DC418DF50750051C9B6 /* PageVC.m in Sources */,
+				396BF58D189AA147005BFF74 /* AppDelegate.m in Sources */,
+				396BF589189AA147005BFF74 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396BF596189AA147005BFF74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396BF5A8189AA147005BFF74 /* EtViewPagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		396BF5A0189AA147005BFF74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 396BF578189AA147005BFF74 /* EtViewPager */;
+			targetProxy = 396BF59F189AA147005BFF74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		396BF585189AA147005BFF74 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				396BF586189AA147005BFF74 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		396BF58E189AA147005BFF74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				396BF58F189AA147005BFF74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		396BF5A4189AA147005BFF74 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				396BF5A5189AA147005BFF74 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		396BF5A9189AA147005BFF74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		396BF5AA189AA147005BFF74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		396BF5AC189AA147005BFF74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EtViewPager/EtViewPager-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/EtViewPager/EtViewPager-Info.plist";
+				PRODUCT_NAME = EtViewPager;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		396BF5AD189AA147005BFF74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EtViewPager/EtViewPager-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/EtViewPager/EtViewPager-Info.plist";
+				PRODUCT_NAME = EtViewPager;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		396BF5AF189AA147005BFF74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ImportResources.app/ImportResources";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImportResources/ImportResources-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ImportResourcesTests/EtViewPagerTests-Info.plist";
+				PRODUCT_NAME = EtViewPagerTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		396BF5B0189AA147005BFF74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ImportResources.app/ImportResources";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImportResources/ImportResources-Prefix.pch";
+				INFOPLIST_FILE = "ImportResourcesTests/EtViewPagerTests-Info.plist";
+				PRODUCT_NAME = EtViewPagerTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		396BF574189AA147005BFF74 /* Build configuration list for PBXProject "EtViewPager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				396BF5A9189AA147005BFF74 /* Debug */,
+				396BF5AA189AA147005BFF74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		396BF5AB189AA147005BFF74 /* Build configuration list for PBXNativeTarget "EtViewPager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				396BF5AC189AA147005BFF74 /* Debug */,
+				396BF5AD189AA147005BFF74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		396BF5AE189AA147005BFF74 /* Build configuration list for PBXNativeTarget "EtViewPagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				396BF5AF189AA147005BFF74 /* Debug */,
+				396BF5B0189AA147005BFF74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 396BF571189AA147005BFF74 /* Project object */;
+}
