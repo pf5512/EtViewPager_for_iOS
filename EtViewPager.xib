@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EtViewPagerVC">
+            <connections>
+                <outlet property="scrollView" destination="GZE-8M-ueB" id="nh3-Ob-aPI"/>
+                <outlet property="view" destination="iN0-l3-epB" id="DoN-Ny-roz"/>
+                <outlet property="viewContent" destination="Jpm-Ok-4uS" id="wkk-c1-ONt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GZE-8M-ueB">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jpm-Ok-4uS">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="568" id="Xfu-Ts-c1x"/>
+                                <constraint firstAttribute="width" constant="320" placeholder="YES" id="te8-LK-2Go"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="Jpm-Ok-4uS" secondAttribute="bottom" id="1hX-Xr-7a2"/>
+                        <constraint firstItem="Jpm-Ok-4uS" firstAttribute="top" secondItem="GZE-8M-ueB" secondAttribute="top" id="8fD-5d-3lw"/>
+                        <constraint firstItem="Jpm-Ok-4uS" firstAttribute="leading" secondItem="GZE-8M-ueB" secondAttribute="leading" id="X19-d7-200"/>
+                        <constraint firstAttribute="trailing" secondItem="Jpm-Ok-4uS" secondAttribute="trailing" id="kDx-78-ghh"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="GZE-8M-ueB" secondAttribute="trailing" id="0Yq-XQ-7Ul"/>
+                <constraint firstAttribute="bottom" secondItem="GZE-8M-ueB" secondAttribute="bottom" id="1qd-3K-kaQ"/>
+                <constraint firstItem="GZE-8M-ueB" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="UeO-D2-ciI"/>
+                <constraint firstItem="GZE-8M-ueB" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="wE3-x9-R7E"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>
