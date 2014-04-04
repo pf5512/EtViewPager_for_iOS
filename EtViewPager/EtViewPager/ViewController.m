@@ -31,6 +31,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.arrayPages = [[NSMutableArray alloc] init];
+    for(int x = 0; x < 6; x++) {
+        [self.arrayPages addObject:[NSNull null]];
+    }
     
 //    self.arrayPages = [[NSMutableArray alloc] init];
 //    UIStoryboard *story = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
