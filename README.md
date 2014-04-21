@@ -1,7 +1,8 @@
-EtViewPager_for_iOS
+EtViewPager for iOS
 ===================
 
-View pager View Controller (displayes an array of UIViewControllers as horizontally positioned sliding pages, left&lt;-->right)
+View pager View Controller 
+(displayes an array of UIViewControllers as horizontally positioned sliding pages, left&lt;--&gt;right)
 
 One way to implement a ViewPager Controller (hope to have time for another one).
 You can use this as a starting point to make your custom ViewPager by extending the EtViewPagerDelegate protocol,
